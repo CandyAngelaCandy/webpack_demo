@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --config webpack.config.js"
+    "start": "webpack-dev-server --config --hot webpack.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.3",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
   }
 }
